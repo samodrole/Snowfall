@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  line-height: 1.1rem;
+  font-weight: 400;
+  
+
+  --bgHero: hsla(210, 16%, 89%,1);
+  --bgFooter: hsla(210, 16%, 12%,1);
+  --bgColor: hsl(255, 100%, 100%);
+  --bgColor-opacity85: hsla(252, 71%, 99%, 0.85);
+  --bgGivGet: hsla(210, 16%, 92%, 1);
+  --borderColor: rgba(39, 36, 28, 0.6);
+
+  --textColorDark100: hsl(250, 10%, 12%);
+  --textColorDark80: hsl(250, 10%, 22%);
+  --textColorDark60: hsl(250, 10%, 35%);
+  --textColorDark40: hsl(250, 10%, 40%);
+  --textColorDark20: hsl(250, 10%, 60%);
+  --textColorDark10: hsl(250, 10%, 70%);
+  --textColorDark5: hsl(248, 10%, 80%);
+
+  --textColorLight100: hsla(0, 20%, 98%, 1);
+  --textColorLight80: hsla(0, 20%, 80%, 1);
+  --textColorLight60: hsla(0, 20%, 70%, 1);
+  --textColorLight40: hsla(0, 20%, 60%, 1);
+  --textColorLight20: hsla(0, 20%, 50%, 1);
+
+  --selectedColor: hsl(50, 100%, 50%);
+  --defaultColor: hsla(192, 8%, 70%, 1);
+  --defaultColor10: hsl(357, 28%, 60%);
+  --defaultColor20: hsl(2, 20%, 50%);
+  --axisColor: hsl(0, 20%, 48%);
+
+  --seymorColor: hsl(189, 36%, 50%);
+  --grouseColor: hsl(18, 60%, 60%);
+  --cypresColor: hsl(45, 60%, 50%);
+
+  --maxWidth: 900px;
+  --maxWidthCharts: 1200px;
+  --textContentPadding: 450px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*------------------------------------------*/
+/*  Scrollbar  
+/*------------------------------------------*/
+::-webkit-scrollbar {
+  width:4px;
+  height: 16px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  transition: all .25s;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--defaultColor);
+  border-left: 4px solid var(--primary-color);
+  border-right: 0px solid black;
+  transition: all .25s;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgColor);
+  background-image: url("$lib/images/bgImage.avif");
+  background-size: cover;                
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+body.noscroll {
+  overflow: hidden;
+} 
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--textColorDark80);
+}
+a {
+  color: var(--textColorDark80);
+}
+span {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--textColorDark60);
+}
+h1 {
+  font-size: clamp(9rem, 18vw, 13rem); 
+  line-height: 1;
+  font-family: 'Cardo', serif;
+  font-weight: 700;
+  color: var(--textColorDark100);
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--textColorDark100);
+}
+h3 {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--textColorDark80);
+}
+h4 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--textColorDark80);
+}
+h5 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: var(--textColorDark80);
+}
+
+.link {
+  border: 1px solid var(--textColorDark80);
+  color: var(--textColorDark60);
+  padding: 12px 16px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 16px 0;
+  cursor: pointer;
+  display: block;
+  line-height: 1;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all, 0.2s;
+}
+.link:hover {
+  border-color: var(--textColorDark40);
+  color: var(--textColorDark80);
+}
+@media (max-width: 600px) {
+
+  body {
+    background-size: 120%;
+  }
+}
+
+
+

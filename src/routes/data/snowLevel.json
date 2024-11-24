@@ -1,0 +1,254 @@
+[
+  {
+    "Season": "2012 - 2013",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 178,
+    "Snowfall Days": 32,
+    "Biggest Snowfall": 18
+  },
+  {
+    "Season": "2013 - 2014",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 196,
+    "Snowfall Days": 53,
+    "Biggest Snowfall": 14
+  },
+  {
+    "Season": "2014 - 2015",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 35,
+    "Snowfall Days": 15,
+    "Biggest Snowfall": 12
+  },
+  {
+    "Season": "2015 - 2016",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 317,
+    "Snowfall Days": 58,
+    "Biggest Snowfall": 30
+  },
+  {
+    "Season": "2016 - 2017",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 361,
+    "Snowfall Days": 69,
+    "Biggest Snowfall": 26
+  },
+  {
+    "Season": "2017 - 2018",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 369,
+    "Snowfall Days": 78,
+    "Biggest Snowfall": 15
+  },
+  {
+    "Season": "2018 - 2019",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 179,
+    "Snowfall Days": 48,
+    "Biggest Snowfall": 11
+  },
+  {
+    "Season": "2019 - 2020",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 236,
+    "Snowfall Days": 55,
+    "Biggest Snowfall": 15
+  },
+  {
+    "Season": "2020 - 2021",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 203,
+    "Snowfall Days": 50,
+    "Biggest Snowfall": 13
+  },
+  {
+    "Season": "2021 - 2022",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 340,
+    "Snowfall Days": 64,
+    "Biggest Snowfall": 24
+  },
+  {
+    "Season": "2022 - 2023",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 278,
+    "Snowfall Days": 83,
+    "Biggest Snowfall": 16
+  },
+  {
+    "Season": "2023 - 2024",
+    "Location": "Cypress_Mountain",
+    "Total Snowfall": 235,
+    "Snowfall Days": 46,
+    "Biggest Snowfall": 19
+  },
+  {
+    "Season": "2012 - 2013",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 158,
+    "Snowfall Days": 34,
+    "Biggest Snowfall": 18
+  },
+  {
+    "Season": "2013 - 2014",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 162,
+    "Snowfall Days": 59,
+    "Biggest Snowfall": 15
+  },
+  {
+    "Season": "2014 - 2015",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 61,
+    "Snowfall Days": 30,
+    "Biggest Snowfall": 8
+  },
+  {
+    "Season": "2015 - 2016",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 241,
+    "Snowfall Days": 62,
+    "Biggest Snowfall": 17
+  },
+  {
+    "Season": "2016 - 2017",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 395,
+    "Snowfall Days": 85,
+    "Biggest Snowfall": 18
+  },
+  {
+    "Season": "2017 - 2018",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 405,
+    "Snowfall Days": 81,
+    "Biggest Snowfall": 18
+  },
+  {
+    "Season": "2018 - 2019",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 184,
+    "Snowfall Days": 49,
+    "Biggest Snowfall": 14
+  },
+  {
+    "Season": "2019 - 2020",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 233,
+    "Snowfall Days": 56,
+    "Biggest Snowfall": 13
+  },
+  {
+    "Season": "2020 - 2021",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 141,
+    "Snowfall Days": 42,
+    "Biggest Snowfall": 15
+  },
+  {
+    "Season": "2021 - 2022",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 233,
+    "Snowfall Days": 72,
+    "Biggest Snowfall": 14
+  },
+  {
+    "Season": "2022 - 2023",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 289,
+    "Snowfall Days": 93,
+    "Biggest Snowfall": 16
+  },
+  {
+    "Season": "2023 - 2024",
+    "Location": "Grouse_Mountain",
+    "Total Snowfall": 199,
+    "Snowfall Days": 42,
+    "Biggest Snowfall": 13
+  },
+  {
+    "Season": "2012 - 2013",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 449,
+    "Snowfall Days": 70,
+    "Biggest Snowfall": 31
+  },
+  {
+    "Season": "2013 - 2014",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 217,
+    "Snowfall Days": 58,
+    "Biggest Snowfall": 18
+  },
+  {
+    "Season": "2014 - 2015",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 28,
+    "Snowfall Days": 10,
+    "Biggest Snowfall": 15
+  },
+  {
+    "Season": "2015 - 2016",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 213,
+    "Snowfall Days": 49,
+    "Biggest Snowfall": 19
+  },
+  {
+    "Season": "2016 - 2017",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 504,
+    "Snowfall Days": 77,
+    "Biggest Snowfall": 29
+  },
+  {
+    "Season": "2017 - 2018",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 348,
+    "Snowfall Days": 69,
+    "Biggest Snowfall": 20
+  },
+  {
+    "Season": "2018 - 2019",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 133,
+    "Snowfall Days": 40,
+    "Biggest Snowfall": 11
+  },
+  {
+    "Season": "2019 - 2020",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 293,
+    "Snowfall Days": 51,
+    "Biggest Snowfall": 19
+  },
+  {
+    "Season": "2020 - 2021",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 153,
+    "Snowfall Days": 45,
+    "Biggest Snowfall": 19
+  },
+  {
+    "Season": "2021 - 2022",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 264,
+    "Snowfall Days": 56,
+    "Biggest Snowfall": 19
+  },
+  {
+    "Season": "2022 - 2023",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 280,
+    "Snowfall Days": 85,
+    "Biggest Snowfall": 13
+  },
+  {
+    "Season": "2023 - 2024",
+    "Location": "Mt_Seymour",
+    "Total Snowfall": 265,
+    "Snowfall Days": 43,
+    "Biggest Snowfall": 24
+  }
+]
