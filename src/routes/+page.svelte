@@ -47,12 +47,14 @@
                 A Decade of Snowfall Trends in Vancouver’s North Shore Mountains
             </h2>
         </header>
-        <div class="contentNarrow top">
-            <p>The North Shore Mountains of British Columbia, Canada, stand as a breathtaking backdrop to Vancouver, drawing ski and snowboard enthusiasts from across the globe. Just minutes from the city, these rugged, snow-capped peaks provide a stunning winter haven, where the crisp mountain air, sweeping vistas, and forested slopes create a natural playground for adventurers of all ages.</p>
+        <div class="contentNarrow">
+            <div class="miniSection">
+                <p>The North Shore Mountains of British Columbia, Canada, stand as a breathtaking backdrop to Vancouver, drawing ski and snowboard enthusiasts from across the globe. Just minutes from the city, these rugged, snow-capped peaks provide a stunning winter haven, where the crisp mountain air, sweeping vistas, and forested slopes create a natural playground for adventurers of all ages.</p>
 
-            <p>Three iconic ski resorts — <a href="https://www.grousemountain.com/" target="_blank">Grouse Mountain</a>, <a href="https://www.cypressmountain.com/" target="_blank">Cypress Mountain</a>, and <a href="https://mtseymour.ca/" target="_blank">Mount Seymour</a> — await within this alpine landscape, each with its own unique appeal and character. Grouse Mountain, often called the “Peak of Vancouver,” is celebrated for its panoramic city views, family-friendly trails, and memorable winter activities like outdoor ice skating and snowshoeing. Mount Seymour, beloved by locals, offers a more intimate mountain experience, with deep snow and a laid-back charm perfect for families and beginners.</p>
-            <p>Cypress Mountain, the largest of the three, gained international acclaim during the 2010 Winter Olympics, where it hosted thrilling freestyle skiing and snowboarding events, forever solidifying its place among premier winter destinations. Today, Cypress draws thrill-seekers to its diverse range of challenging runs, pristine backcountry, and Olympic-caliber terrain parks.</p>
-            <p>Together, these three resorts make Vancouver’s North Shore Mountains a premier winter sports destination, offering a unique blend of accessible wilderness, awe-inspiring scenery, and some of Canada’s finest slopes — all within reach of one of the country’s most vibrant cities.</p>
+                <p>Three iconic ski resorts — <a href="https://www.grousemountain.com/" target="_blank">Grouse Mountain</a>, <a href="https://www.cypressmountain.com/" target="_blank">Cypress Mountain</a>, and <a href="https://mtseymour.ca/" target="_blank">Mount Seymour</a> — await within this alpine landscape, each with its own unique appeal and character. Grouse Mountain, often called the “Peak of Vancouver,” is celebrated for its panoramic city views, family-friendly trails, and memorable winter activities like outdoor ice skating and snowshoeing. Mount Seymour, beloved by locals, offers a more intimate mountain experience, with deep snow and a laid-back charm perfect for families and beginners.</p>
+                <p>Cypress Mountain, the largest of the three, gained international acclaim during the 2010 Winter Olympics, where it hosted thrilling freestyle skiing and snowboarding events, forever solidifying its place among premier winter destinations. Today, Cypress draws thrill-seekers to its diverse range of challenging runs, pristine backcountry, and Olympic-caliber terrain parks.</p>
+                <p>Together, these three resorts make Vancouver’s North Shore Mountains a premier winter sports destination, offering a unique blend of accessible wilderness, awe-inspiring scenery, and some of Canada’s finest slopes — all within reach of one of the country’s most vibrant cities.</p>
+            </div>
         </div>
 
 
@@ -155,7 +157,7 @@
     .contentNarrow {
         display: grid;
         position: relative;
-        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-columns: 2fr 1fr;
         max-width: var(--maxWidth);
         margin: 0 auto;
         padding: 0 24px 24px;
@@ -167,7 +169,7 @@
     }
 
     .contentNarrow > * {
-        grid-column: 2 / 3;
+        grid-column: 1 / 2;
     }
     .resortsSection {
         position: relative;
@@ -182,7 +184,7 @@
         max-width: var(--maxWidth);
         margin: 0 auto;
         padding: 0 24px 60px;
-        text-align: center;
+        /* text-align: center; */
     }
     header {
         padding-top: clamp(5rem, 45vw, 80vh);
@@ -306,7 +308,7 @@
         .resortsSection {
             padding: 0 24px 48px;
         }
-        .footerNarrow p {
+        .footerNarrow p, .footerNarrow div {
             grid-column: 1 / -1;
         }
         footer {
@@ -316,10 +318,13 @@
             max-width: var(--maxWidth);
             margin: 0 auto;
             padding: 0 24px 60px;
-            text-align: left;
+            /* text-align: left; */
+        }
+        .contentNarrow > * {
+            grid-column: 1 / -1;
         }
         .mainWrapper {
-        padding-top: 40vh;
+        padding-top: 32vh;
     }
     }
     @media (max-width: 600px) {

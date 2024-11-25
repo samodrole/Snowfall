@@ -105,7 +105,7 @@
         font-size: 1.2rem;
         font-weight: 500;
     }
-    @media screen and (min-width: 200px) and (max-width: 700px) {
+    @media (max-width: 900px) {
         .resortinfo {
             grid-column: 1 / -1;
             grid-row: 1 / 1;
