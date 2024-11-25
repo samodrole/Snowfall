@@ -1,43 +1,24 @@
-<<<<<<< HEAD
-# create-svelte
+# ![Snowfall](https://github.com/samodrole/Snowfall/blob/main/images/snowfallCover.jpg)
+# Where Snow Meets the Sea
+Datavisualization of a Decade of Snowfall Trends in Vancouver’s North Shore Mountains.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+## Live
+Here is a working live vesrion:  http://samodrole.com/projects/snowfall/
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Dataviz
+This work is using two chart types
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- Main chart is [Bar Chart (Horizontal)](https://datavizproject.com/data-type/bar-chart-horizontal/)
+- In a toltip I'm using [Line chart](https://datavizproject.com/data-type/line-chart/) with [curveStep point interpolator](http://using-d3js.com/05_04_curves.html) provided by D3.js and some extra SVG elements to indicate the first position.  
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Built with 
 
-```bash
-npm run dev
+- [Svelte](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) Svelte is a radical new approach to building user interfaces.
+- [D3js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-=======
-# Snowfall
-A Decade of Snowfall Trends in Vancouver’s North Shore Mountains
->>>>>>> f6e92f91cb53f52064a4cbc627a441a2a7fe9427
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
